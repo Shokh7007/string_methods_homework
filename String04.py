@@ -6,7 +6,7 @@ def main(s):
     Returns:
         bool: answer
     """
-    if s==s.lower():
+    if s.lower()==s:
         return True
     else:
         return False
